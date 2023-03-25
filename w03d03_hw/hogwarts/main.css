@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: oldlace;
+    text-align: center;
+}/*or any color of your choosing*/
+
+.pet {
+    font-family: fantasy;
+}
+
+ul {
+    list-style: none;
+}
+
+.secret {
+    opacity: .5;
+}
+
+th,
+td,
+table {
+    border: gray 1px solid;
+}
+
+table {
+    display: inline-block;
+    align-items: center;
+}
+
+.cabbage {
+    color: chartreuse;
+}
