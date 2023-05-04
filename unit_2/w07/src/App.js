@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import WeatherIcons from "./components/WeatherIcons";
-import weatherData from "./WeatherData";
+import weatherData from "./weatherData";
 
 // Task 3:
 // ----------
@@ -20,10 +20,6 @@ import weatherData from "./WeatherData";
 // </App>
 
 function App() {
-
-  const [weather, setWeather] = useState(weatherData);
-
-  console.info("weather data in app >>> ", weatherData);
 
   return (
     <>
