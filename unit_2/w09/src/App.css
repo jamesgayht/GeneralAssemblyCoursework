@@ -1,0 +1,57 @@
+/* Global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #121212;
+  color: #b3b3b3;
+}
+
+/* App */
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.query-form {
+  display: flex;
+  flex-direction: column;
+}
+
+button,
+input {
+  width: 200px;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+img {
+  max-width: 240px;
+  max-height: 300px;
+}
+
+.movie-cards {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  align-items: center;
+  margin-bottom: 10px;
+  border: solid 1px whitesmoke;
+  width: 250px;
+}
